@@ -1,6 +1,7 @@
 [application]
 
 [web.app]
+base_path = "https://github.com/usering-around/theory_test_exam"
 
 # HTML title tag content
 title = "theory_test_ui"
@@ -19,9 +20,6 @@ script = []
 # Javascript code file
 # serve: [dev-server] only
 script = []
-
-[web.app]
-base_path = "https://github.com/usering-around/theory_test_exam"
 
 
 [web.watcher]
