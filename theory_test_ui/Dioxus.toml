@@ -1,7 +1,7 @@
 [application]
 
 [web.app]
-base_path = "https://github.com/usering-around/theory_test_exam/theory_test_ui"
+base_path = "theory_test_exam"
 
 # HTML title tag content
 title = "theory_test_ui"
