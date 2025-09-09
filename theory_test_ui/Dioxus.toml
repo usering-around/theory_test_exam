@@ -20,6 +20,9 @@ script = []
 # serve: [dev-server] only
 script = []
 
+[web.app]
+base_path = "https://github.com/usering-around/theory_test_exam"
+
 
 [web.watcher]
 index_on_404 = true
