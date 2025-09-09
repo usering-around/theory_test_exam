@@ -1,0 +1,10 @@
+[package]
+name = "theory_test_parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+calamine = "0.29.0"
+eframe = "0.32.0"
+quick-xml = "0.38.1"
+thiserror = "2.0.12"

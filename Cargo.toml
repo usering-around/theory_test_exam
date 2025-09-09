@@ -1,0 +1,20 @@
+[workspace]
+resolver = "3"
+members = ["theory_test_parser", "theory_test_ui"]
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
+
+[profile.superopt]
+inherits = "release"
+codegen-units = 1
+lto = "fat"

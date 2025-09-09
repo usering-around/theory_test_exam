@@ -1,0 +1,25 @@
+[package]
+name = "theory_test_ui"
+version = "0.1.0"
+authors = ["makeitrain"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.6.0", features = ["router"] }
+rand = { version = "0.9.2", default-features = false, features = [
+    "alloc",
+    "os_rng",
+] }
+rand_pcg = "0.9.0"
+theory_test_parser = { path = "../theory_test_parser" }
+getrandom = { version = "0.3.2", default_features = false, features = [
+    "wasm_js",
+] }
+
+[features]
+default = ["web"]
+web = ["dioxus/web"]
+desktop = ["dioxus/desktop"]
+mobile = ["dioxus/mobile"]
