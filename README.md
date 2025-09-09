@@ -5,7 +5,7 @@ Build: Install rust, clone the repo, and then run: <br>
 `cd theory_test_ui` <br>
 `dx serve` <br>
 
-Todo: 
-Make the interface prettier
-Add time
+Todo: <br>
+Make the interface prettier <br>
+Add time <br>
 Add more license types (should be fairly easy)
